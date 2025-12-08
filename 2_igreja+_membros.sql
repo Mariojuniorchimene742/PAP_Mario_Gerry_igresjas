@@ -1,3 +1,7 @@
+USE igreja+_system;
+
+DROP TABLE IF EXISTS membro;
+
 CREATE TABLE membro(
     id INT(11) INT AUTO_INCREMENT PRIMARY KEY,
     Nome VARCHAR(50) NOT NULL,
