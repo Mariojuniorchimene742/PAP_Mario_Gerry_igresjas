@@ -8,4 +8,6 @@ CREATE TABLE evento (
     DataHoraFim DATETIME NOT NULL,
     Local VARCHAR(150)
     PRIMARY KEY(id)
-)
+);
+
+SELECT * FROM eventos;

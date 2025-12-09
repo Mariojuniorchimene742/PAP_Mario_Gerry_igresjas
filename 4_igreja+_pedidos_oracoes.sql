@@ -9,5 +9,6 @@ CREATE TABLE pedidos_oracao (
     mensagem TEXT NOT NULL,
     PRIMARY KEY (id),
     FOREIGN KEY (id_membro) REFERENCES membro(id)
+);
 
-    SELECT * FROM pedidos_oracao;
+ SELECT * FROM pedidos_oracao;

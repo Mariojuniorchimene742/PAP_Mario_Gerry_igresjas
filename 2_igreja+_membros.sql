@@ -12,3 +12,5 @@ CREATE TABLE membro(
     Endereco VARCHAR(255),
     PRIMARY KEY(id)
 );
+
+SELECT * FROM membros;

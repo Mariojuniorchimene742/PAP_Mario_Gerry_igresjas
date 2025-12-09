@@ -7,4 +7,5 @@ CREATE TABLE pastor(
     telefone VARCHAR(20),
     email VARCHAR(100)
 );
+    SELECT * FROM pastor;
 
